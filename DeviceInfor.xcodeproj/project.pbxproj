@@ -15,6 +15,13 @@
 		C550849B1C1565FD00D566D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55084991C1565FD00D566D1 /* LaunchScreen.storyboard */; };
 		C55084A61C1565FD00D566D1 /* DeviceInforTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084A51C1565FD00D566D1 /* DeviceInforTests.m */; };
 		C55084B11C1565FE00D566D1 /* DeviceInforUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084B01C1565FE00D566D1 /* DeviceInforUITests.m */; };
+		C55084CD1C15664200D566D1 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084C01C15664200D566D1 /* DeviceInfo.m */; };
+		C55084D11C15664200D566D1 /* StringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084C81C15664200D566D1 /* StringUtility.m */; };
+		C55084D21C15664200D566D1 /* TTDAIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084CA1C15664200D566D1 /* TTDAIPAddress.m */; };
+		C55084E01C1567E900D566D1 /* TTDAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084DF1C1567E900D566D1 /* TTDAReachability.m */; };
+		C55084E41C15685100D566D1 /* TTDABase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084E31C15685100D566D1 /* TTDABase64.m */; };
+		C55084E81C156C3800D566D1 /* TTDACrackify.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084E71C156C3800D566D1 /* TTDACrackify.m */; };
+		C55084EC1C1570CD00D566D1 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084EB1C1570CD00D566D1 /* KeychainItemWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		C55084AC1C1565FD00D566D1 /* DeviceInforUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceInforUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C55084B01C1565FE00D566D1 /* DeviceInforUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInforUITests.m; sourceTree = "<group>"; };
 		C55084B21C1565FE00D566D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55084BF1C15664200D566D1 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		C55084C01C15664200D566D1 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		C55084C71C15664200D566D1 /* StringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtility.h; sourceTree = "<group>"; };
+		C55084C81C15664200D566D1 /* StringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtility.m; sourceTree = "<group>"; };
+		C55084C91C15664200D566D1 /* TTDAIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDAIPAddress.h; sourceTree = "<group>"; };
+		C55084CA1C15664200D566D1 /* TTDAIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDAIPAddress.m; sourceTree = "<group>"; };
+		C55084DE1C1567E900D566D1 /* TTDAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDAReachability.h; sourceTree = "<group>"; };
+		C55084DF1C1567E900D566D1 /* TTDAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDAReachability.m; sourceTree = "<group>"; };
+		C55084E21C15685100D566D1 /* TTDABase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDABase64.h; sourceTree = "<group>"; };
+		C55084E31C15685100D566D1 /* TTDABase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDABase64.m; sourceTree = "<group>"; };
+		C55084E61C156C3800D566D1 /* TTDACrackify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDACrackify.h; sourceTree = "<group>"; };
+		C55084E71C156C3800D566D1 /* TTDACrackify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDACrackify.m; sourceTree = "<group>"; };
+		C55084EA1C1570CD00D566D1 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		C55084EB1C1570CD00D566D1 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,11 @@
 		C550848A1C1565FD00D566D1 /* DeviceInfor */ = {
 			isa = PBXGroup;
 			children = (
+				C55084E91C1570CD00D566D1 /* KeychainItemWrapper */,
+				C55084E51C156C3800D566D1 /* Crackify */,
+				C55084E11C15685100D566D1 /* Base64 */,
+				C55084DD1C1567E900D566D1 /* Reachability */,
+				C55084BE1C15664200D566D1 /* Utility */,
 				C550848E1C1565FD00D566D1 /* AppDelegate.h */,
 				C550848F1C1565FD00D566D1 /* AppDelegate.m */,
 				C55084911C1565FD00D566D1 /* ViewController.h */,
@@ -138,6 +164,55 @@
 				C55084B21C1565FE00D566D1 /* Info.plist */,
 			);
 			path = DeviceInforUITests;
+			sourceTree = "<group>";
+		};
+		C55084BE1C15664200D566D1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C55084BF1C15664200D566D1 /* DeviceInfo.h */,
+				C55084C01C15664200D566D1 /* DeviceInfo.m */,
+				C55084C71C15664200D566D1 /* StringUtility.h */,
+				C55084C81C15664200D566D1 /* StringUtility.m */,
+				C55084C91C15664200D566D1 /* TTDAIPAddress.h */,
+				C55084CA1C15664200D566D1 /* TTDAIPAddress.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C55084DD1C1567E900D566D1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C55084DE1C1567E900D566D1 /* TTDAReachability.h */,
+				C55084DF1C1567E900D566D1 /* TTDAReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C55084E11C15685100D566D1 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C55084E21C15685100D566D1 /* TTDABase64.h */,
+				C55084E31C15685100D566D1 /* TTDABase64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		C55084E51C156C3800D566D1 /* Crackify */ = {
+			isa = PBXGroup;
+			children = (
+				C55084E61C156C3800D566D1 /* TTDACrackify.h */,
+				C55084E71C156C3800D566D1 /* TTDACrackify.m */,
+			);
+			path = Crackify;
+			sourceTree = "<group>";
+		};
+		C55084E91C1570CD00D566D1 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C55084EA1C1570CD00D566D1 /* KeychainItemWrapper.h */,
+				C55084EB1C1570CD00D566D1 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55084D21C15664200D566D1 /* TTDAIPAddress.m in Sources */,
+				C55084E41C15685100D566D1 /* TTDABase64.m in Sources */,
 				C55084931C1565FD00D566D1 /* ViewController.m in Sources */,
 				C55084901C1565FD00D566D1 /* AppDelegate.m in Sources */,
 				C550848D1C1565FD00D566D1 /* main.m in Sources */,
+				C55084D11C15664200D566D1 /* StringUtility.m in Sources */,
+				C55084E01C1567E900D566D1 /* TTDAReachability.m in Sources */,
+				C55084CD1C15664200D566D1 /* DeviceInfo.m in Sources */,
+				C55084EC1C1570CD00D566D1 /* KeychainItemWrapper.m in Sources */,
+				C55084E81C156C3800D566D1 /* TTDACrackify.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +493,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = DeviceInfor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.DeviceInfor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.infor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3691ce9c-c42c-46b3-b8d6-3997df2769fe";
 			};
 			name = Debug;
 		};
@@ -422,10 +506,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: bin han (98RG5YK264)";
 				INFOPLIST_FILE = DeviceInfor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KingNet.DeviceInfor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnet.infor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3691ce9c-c42c-46b3-b8d6-3997df2769fe";
 			};
 			name = Release;
 		};
