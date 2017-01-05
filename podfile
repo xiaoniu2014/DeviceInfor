@@ -1,0 +1,7 @@
+
+target 'DeviceInfor' do
+pod "AFNetworking"
+
+end 
+
+
