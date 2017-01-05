@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xiaoniu2014/DeviceInfor.git", :commit => "bdc237e2afff8f0a928af2bcfb9961ead55c5c1c" }
 
-  s.source_files  = "DeviceInfor/Utility/**/*.{h,m}"
+  s.source_files  = "/DeviceInfor/Utility/*"
   s.exclude_files = "Classes/Exclude"
 
 end
