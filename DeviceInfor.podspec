@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DeviceInfor"
   s.version      = "0.0.1"
-  s.summary      = ""
+  s.summary      = "获取iPhone设备信息"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    模块的详细介绍
                    DESC
 
   s.homepage     = "https://github.com/xiaoniu2014/DeviceInfor"
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 

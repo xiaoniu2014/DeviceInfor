@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90F51C301E1E408800438F1A /* DeviceInfor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 90F51C2F1E1E408800438F1A /* DeviceInfor.podspec */; };
 		C550848D1C1565FD00D566D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C550848C1C1565FD00D566D1 /* main.m */; };
 		C55084901C1565FD00D566D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C550848F1C1565FD00D566D1 /* AppDelegate.m */; };
 		C55084931C1565FD00D566D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55084921C1565FD00D566D1 /* ViewController.m */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		507758204DFDD7305CBF2972 /* libPods-DeviceInfor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeviceInfor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F51C2F1E1E408800438F1A /* DeviceInfor.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeviceInfor.podspec; sourceTree = "<group>"; };
 		C55084881C1565FD00D566D1 /* DeviceInfor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550848C1C1565FD00D566D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C550848E1C1565FD00D566D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				C55084971C1565FD00D566D1 /* Assets.xcassets */,
 				C55084991C1565FD00D566D1 /* LaunchScreen.storyboard */,
 				C550849C1C1565FD00D566D1 /* Info.plist */,
+				90F51C2F1E1E408800438F1A /* DeviceInfor.podspec */,
 				C550848B1C1565FD00D566D1 /* Supporting Files */,
 			);
 			path = DeviceInfor;
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C550849B1C1565FD00D566D1 /* LaunchScreen.storyboard in Resources */,
+				90F51C301E1E408800438F1A /* DeviceInfor.podspec in Resources */,
 				C55084981C1565FD00D566D1 /* Assets.xcassets in Resources */,
 				C55084961C1565FD00D566D1 /* Main.storyboard in Resources */,
 			);
